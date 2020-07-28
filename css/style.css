@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #272727;
+}
+
+#game-board {
+    background-color: #89bd4c;
+    width: 100vmin;
+    height: 100vmin;
+    display: none;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+}
+
+#menu {
+    background-color: #89bd4c;
+    width: 100vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#score {
+    font-size: 1.5vh;
+}
+
+#menu img {
+    max-width: 1000px;
+    max-height: 1000px;
+    vertical-align: middle;
+}
