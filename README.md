@@ -6,4 +6,5 @@ How to play:
 - Use arrow keys or swipe for direction
 - Avoid trees
 - Collect diamonds
-- Use gas
+- Use gas for extra points
+- Clear trees with an explosion
